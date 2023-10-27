@@ -1,0 +1,17 @@
+/* chara */
+.chara {
+    position: relative;
+    width: 32px;
+    height: 32px;
+    overflow: hidden;
+}
+.chara img {
+    max-inline-size: none;
+    max-block-size: none;
+    position: relative;
+    width: 96px;
+    height: 128px;
+}
+div.chara.on-stage {
+    transition: left 1s linear, top 1s linear;
+}
